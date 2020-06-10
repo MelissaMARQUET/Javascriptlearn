@@ -1,0 +1,28 @@
+/* Sections de la page d'accueil*/
+.mainsections {
+    width : 50%;
+    margin : 1em auto;
+    border-bottom: 1px solid var(--titlecolor);
+}
+/* 800px / 16px = 50em */
+@media (max-width: 50em) {
+    .mainsections {
+        width : 100%;
+    }
+}
+/*Sections de la page chifoumi*/
+.choixjoueur {
+    display : none;
+}
+#choixordi {
+    display : none;
+}
+#chifoumiimg {
+    margin : 2em auto;
+    max-width : 100%;
+}
+#resulatchifoumi {
+    padding : 0.5em;
+    font-size : 1.5em;
+    font-weight: bold;
+}

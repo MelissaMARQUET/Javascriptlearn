@@ -1,0 +1,15 @@
+header {
+    width: 100%;
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    .mainimg  {
+    width : 80%;
+    }
+}
+/* 300px / 16px = 18.75em */
+@media (max-width: 18.75em) {
+    .mainimg  {
+    display : none;
+    }
+}

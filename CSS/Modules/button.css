@@ -1,0 +1,15 @@
+.button {
+    max-width: max-content;
+    max-height : max-content;
+    margin: 1em auto;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    background-color: lightgray;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
